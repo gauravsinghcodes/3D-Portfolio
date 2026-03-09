@@ -51,7 +51,10 @@ const Tech = () => {
                   <img
                     src={technology.icon}
                     alt={technology.name}
-                    className='w-full h-full object-contain'
+                    className={`w-full h-full object-contain ${["GitHub", "Next.js", "Vercel", "Node JS", "Express", "Three JS", "Flask"].includes(technology.name)
+                        ? "brightness-0 invert"
+                        : ""
+                      }`}
                   />
                 </div>
                 <p className='text-secondary text-[11px] text-center font-medium opacity-80'>

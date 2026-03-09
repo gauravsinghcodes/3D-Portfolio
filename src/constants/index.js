@@ -223,6 +223,7 @@ const projects = [
     ],
     image: site,
     source_code_link: "https://github.com/gauravsinghcodes/Site-Builder",
+    link:"https://site-builder-frontend-nine.vercel.app",
   },
   {
     name: "Feedback App",
@@ -244,6 +245,7 @@ const projects = [
     ],
     image: feedbackImg,
     source_code_link: "https://github.com/gauravsinghcodes/websiite_feedback_collector",
+    link:"https://gauravsinghcodes.pythonanywhere.com",
   },
   {
     name: "Fizzi-Fizz",
@@ -273,6 +275,7 @@ const projects = [
     ],
     image: fizzi,
     source_code_link: "https://github.com/gauravsinghcodes/Fizzi-Fizz",
+    link:"https://fizzi-fizz.vercel.app",
   },
   {
     name: "Spotify Clone",
@@ -294,6 +297,7 @@ const projects = [
     ],
     image: spotifyimg,
     source_code_link: "https://github.com/gauravsinghcodes/spotify_clone",
+    link:"https://spotify-clone-kappa-rouge.vercel.app",
   },
   {
     name: "AI Chatbot",
@@ -319,6 +323,7 @@ const projects = [
     ],
     image: aichatbot,
     source_code_link: "https://github.com/gauravsinghcodes/ai-chatbott",
+    link:"https://ai-chatbott-indol.vercel.app",
   },
   {
     name: "Weather Forecast App",
@@ -344,6 +349,7 @@ const projects = [
     ],
     image: weather,
     source_code_link: "https://github.com/gauravsinghcodes/weather-forecast-app",
+    link:"https://weather-forecast-app-taupe.vercel.app",
   },
 ];
 
