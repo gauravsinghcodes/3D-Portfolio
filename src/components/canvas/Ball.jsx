@@ -10,12 +10,16 @@ import {
 
 import CanvasLoader from "../Loader";
 
-const Ball = ({ imgUrl, position, scale = 2.75 }) => {
+const Ball = ({ imgUrl, position, scale = 2.75, isMobile }) => {
   const [decal] = useTexture([imgUrl || "/tech/javascript.png"]); // Safety fallback
 
   return (
-    <Float speed={1.75} rotationIntensity={1} floatIntensity={2}>
-      <mesh castShadow receiveShadow scale={scale} position={position}>
+    <Float
+      speed={isMobile ? 0 : 1.75}
+      rotationIntensity={isMobile ? 0 : 1}
+      floatIntensity={isMobile ? 0 : 2}
+    >
+      <mesh castShadow={!isMobile} receiveShadow={!isMobile} scale={scale} position={position}>
         <icosahedronGeometry args={[1, 1]} />
         <meshStandardMaterial
           color='#fff8eb'
@@ -97,6 +101,7 @@ const BallCanvas = ({ technologies }) => {
               imgUrl={tech.icon}
               position={[x, y, 0]}
               scale={isMobile ? 2.4 : 2.75}
+              isMobile={isMobile}
             />
           );
         })}
