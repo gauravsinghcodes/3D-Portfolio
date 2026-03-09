@@ -40,6 +40,7 @@ const BallCanvas = ({ technologies }) => {
     <Canvas
       frameloop='demand'
       dpr={[1, 2]}
+      camera={{ position: [0, 0, 30], fov: 45 }}
       gl={{ preserveDrawingBuffer: true }}
     >
       <Suspense fallback={<CanvasLoader />}>
