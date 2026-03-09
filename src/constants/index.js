@@ -16,14 +16,29 @@ import {
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
   carrent,
   jobit,
   tripguide,
   threejs,
+  civora,
+  cplusplus,
+  c,
+  express,
+  flask,
+  githubtech,
+  mysql,
+  nextjs,
+  postman,
+  vercel,
+  site,
+  aichatbot,
+  feedbackImg,
+  fizzi,
+  weather,
+  spotifyimg,
+  nasa,
+  sectip,
+  swayam,
 } from "../assets";
 
 export const navLinks = [
@@ -43,11 +58,11 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "MERN Stack Developer",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Frontend Developer",
     icon: mobile,
   },
   {
@@ -55,7 +70,7 @@ const services = [
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Full Stack Developer",
     icon: creator,
   },
 ];
@@ -82,10 +97,6 @@ const technologies = [
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
-  {
     name: "Tailwind CSS",
     icon: tailwind,
   },
@@ -98,10 +109,6 @@ const technologies = [
     icon: mongodb,
   },
   {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
     name: "git",
     icon: git,
   },
@@ -110,157 +117,234 @@ const technologies = [
     icon: figma,
   },
   {
-    name: "docker",
-    icon: docker,
+    name: "Three JS",
+    icon: threejs,
+  },
+  {
+    name: "C++",
+    icon: cplusplus,
+  },
+  {
+    name: "C",
+    icon: c,
+  },
+  {
+    name: "Express",
+    icon: express,
+  },
+  {
+    name: "Flask",
+    icon: flask,
+  },
+  {
+    name: "GitHub",
+    icon: githubtech,
+  },
+  {
+    name: "MySQL",
+    icon: mysql,
+  },
+  {
+    name: "Next.js",
+    icon: nextjs,
+  },
+  {
+    name: "Postman",
+    icon: postman,
+  },
+  {
+    name: "Vercel",
+    icon: vercel,
   },
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Full Stack Developer Intern",
+    company_name: "Civora Nexus",
+    icon: civora,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "July 2025 - August 2025",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Built a production-ready Feedback App.",
+      "Implemented secure authentication and user management.",
+      "Designed and integrated databases for seamless data flow.",
+      "Created interactive dashboards for data visualization and analysis.",
     ],
   },
 ];
 
-const testimonials = [
+const certifications = [
   {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+    name: "Full Stack Web Development",
+    issuer: "Civora Nexus",
+    date: "July 2025 - August 2025",
+    image: sectip,
+    link: "https://c.vialoops.com/CL0/https:%2F%2Fdrive.google.com%2Ffile%2Fd%2F1rFJDVtjnU-qQcOGpwTny5gEJmsYUYdX8%2Fview%3Fusp=drive_link/1/01000198901c1c10-06722156-f748-4421-9d3c-e0130d4ab491-000000/CXTe_pCeIseWAfiyia4E4jTckSvGWdrrS6ivMs5GCJM=417",
   },
   {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+    name: "Corporate Social Responsibility",
+    issuer: "Indian Institute of Technology, Kharagpur",
+    date: "Sept 2025",
+    image: swayam,
+    link: "https://internalapp.nptel.ac.in/NOC/NOC25/SEM2/Ecertificates/110/noc25-mg139/Course/NPTEL25MG139S64360115909315531.pdf",
   },
   {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+    name: "NASA International Space Apps Challenge 2025",
+    issuer: "NASA",
+    date: "October 2025",
+    image: nasa,
+    link: "https://www.linkedin.com/posts/gaurav-singh-b3b3b7324_nasa-spaceapps-hackathon-activity-7400606972057747456-2n2Y?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFHt1J8BDON6vpFvBoqNajg5Ks26GZrrGto",
   },
 ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "AI Site Builder",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "An AI-powered Website Builder that generates and updates complete websites from simple prompts with real-time preview, version control, and responsive Tailwind-based layouts.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "postgresql",
         color: "green-text-gradient",
       },
       {
         name: "tailwind",
         color: "pink-text-gradient",
       },
+      {
+        name: "Express and Node.js",
+        color: "orange-text-gradient",
+      },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: site,
+    source_code_link: "https://github.com/gauravsinghcodes/Site-Builder",
   },
   {
-    name: "Job IT",
+    name: "Feedback App",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "A user-friendly web application built with Flask, HTML/CSS, and SQLite that allows users to submit feedback and enables admin to review and update feedback status via a secure dashboard. Automated email notifications are also sent during submission and resolution.",
     tags: [
       {
-        name: "react",
+        name: "Flask",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "SQLite",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "HTML/CSS",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: feedbackImg,
+    source_code_link: "https://github.com/gauravsinghcodes/websiite_feedback_collector",
   },
   {
-    name: "Trip Guide",
+    name: "Fizzi-Fizz",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "An E-commerce landing page built using HTML, CSS, and JavaScript. It features a modern design, responsive layout, and interactive elements to enhance user experience.",
     tags: [
       {
-        name: "nextjs",
+        name: "Next.js and React.js",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "Tailwind CSS",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "Three.js",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "GSAP",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "Prismic CMS",
+        color: "green-text-gradient",
+      },
+    ],
+    image: fizzi,
+    source_code_link: "https://github.com/gauravsinghcodes/Fizzi-Fizz",
+  },
+  {
+    name: "Spotify Clone",
+    description:
+      "A responsive web application replicating Spotify's core features using HTML, CSS, and JavaScript.",
+    tags: [
+      {
+        name: "HTML",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "CSS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "JavaScript",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: spotifyimg,
+    source_code_link: "https://github.com/gauravsinghcodes/spotify_clone",
+  },
+  {
+    name: "AI Chatbot",
+    description:
+      "A modern AI-powered chatbot web application built using HTML, CSS, JavaScript, and a serverless backend deployed on Vercel using Google Gemini API. This project is created as a practice project to understand full-stack deployment, API integration, and serverless architecture.",
+    tags: [
+      {
+        name: "HTML",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "CSS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "JavaScript",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Google Gemini API",
+        color: "orange-text-gradient",
+      },
+    ],
+    image: aichatbot,
+    source_code_link: "https://github.com/gauravsinghcodes/ai-chatbott",
+  },
+  {
+    name: "Weather Forecast App",
+    description:
+      "A modern and responsive Weather Forecast Web App that shows real-time weather information and hourly forecasts for any city using the WeatherAPI. The app also supports current location weather and dynamic background gradients based on weather conditions.",
+    tags: [
+      {
+        name: "HTML",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "CSS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "JavaScript",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "WeatherAPI",
+        color: "orange-text-gradient",
+      },
+    ],
+    image: weather,
+    source_code_link: "https://github.com/gauravsinghcodes/weather-forecast-app",
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, experiences, certifications, projects };

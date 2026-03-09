@@ -20,15 +20,34 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import cplusplus from "./tech/cplusplus.png";
+import c from "./tech/c.png";
+import express from "./tech/express.png";
+import flask from "./tech/flask.png";
+import githubtech from "./tech/githubtech.png";
+import mysql from "./tech/mysql.png";
+import nextjs from "./tech/nextjs.png";
+import postman from "./tech/postman.png";
+import vercel from "./tech/vercel.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import civora from "./company/civora.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import site from "./site.png";
+import aichatbot from "./ai-chatbot.png";
+import feedbackImg from "./feedback.png";
+import fizzi from "./fizzi.png";
+import weather from "./weather.png";
+import spotifyimg from "./spotifyimg.png";
+import nasa from "./nasa.png";
+import sectip from "./sectip.png";
+import swayam from "./swayam.png";
 
 export {
   logo,
@@ -52,6 +71,15 @@ export {
   tailwind,
   typescript,
   threejs,
+  cplusplus,
+  c,
+  express,
+  flask,
+  githubtech,
+  mysql,
+  nextjs,
+  postman,
+  vercel,
   meta,
   shopify,
   starbucks,
@@ -59,4 +87,14 @@ export {
   carrent,
   jobit,
   tripguide,
+  civora,
+  site,
+  aichatbot,
+  feedbackImg,
+  fizzi,
+  weather,
+  spotifyimg,
+  nasa,
+  sectip,
+  swayam,
 };
