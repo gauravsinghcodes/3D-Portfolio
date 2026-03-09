@@ -64,7 +64,7 @@ const BallCanvas = ({ technologies }) => {
       frameloop='demand'
       dpr={[1, 2]}
       camera={{ position: [0, 0, isMobile ? 70 : 30], fov: isMobile ? 45 : 45 }}
-      gl={{ preserveDrawingBuffer: true, antialias: true }}
+      gl={{ preserveDrawingBuffer: true, antialias: !isMobile }}
     >
       <Suspense fallback={<CanvasLoader />}>
         <OrbitControls
