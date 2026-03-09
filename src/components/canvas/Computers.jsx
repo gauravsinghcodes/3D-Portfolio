@@ -73,6 +73,8 @@ const ComputersCanvas = () => {
         />
         <Computers isMobile={isMobile} />
       </Suspense>
+
+      {!isMobile && <Preload all />}
     </Canvas>
   );
 };
