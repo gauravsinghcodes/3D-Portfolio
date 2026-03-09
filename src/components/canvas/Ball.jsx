@@ -62,9 +62,9 @@ const BallCanvas = ({ technologies }) => {
   return (
     <Canvas
       frameloop='demand'
-      dpr={[1, 2]}
+      dpr={isMobile ? 1 : [1, 2]}
       camera={{ position: [0, 0, isMobile ? 70 : 30], fov: isMobile ? 45 : 45 }}
-      gl={{ preserveDrawingBuffer: true }}
+      gl={{ preserveDrawingBuffer: true, antialias: !isMobile }}
     >
       <Suspense fallback={<CanvasLoader />}>
         <OrbitControls
@@ -97,12 +97,11 @@ const BallCanvas = ({ technologies }) => {
               imgUrl={tech.icon}
               position={[x, y, 0]}
               scale={isMobile ? 2.4 : 2.75}
+              isMobile={isMobile}
             />
           );
         })}
       </Suspense>
-
-      <Preload all />
     </Canvas>
   );
 };
