@@ -4,22 +4,19 @@ import {
   Decal,
   Float,
   OrbitControls,
-  Preload,
   useTexture,
 } from "@react-three/drei";
 
 import CanvasLoader from "../Loader";
 
-const Ball = ({ imgUrl, position, scale = 2.75, isMobile }) => {
-  const [decal] = useTexture([imgUrl || "/tech/javascript.png"]); // Safety fallback
+const Ball = ({ imgUrl }) => {
+  const [decal] = useTexture([imgUrl]);
 
   return (
-    <Float
-      speed={isMobile ? 0 : 1.75}
-      rotationIntensity={isMobile ? 0 : 1}
-      floatIntensity={isMobile ? 0 : 2}
-    >
-      <mesh castShadow={!isMobile} receiveShadow={!isMobile} scale={scale} position={position}>
+    <Float speed={1.75} rotationIntensity={1} floatIntensity={2}>
+      <ambientLight intensity={0.25} />
+      <directionalLight position={[0, 0, 0.05]} />
+      <mesh castShadow receiveShadow scale={2.75}>
         <icosahedronGeometry args={[1, 1]} />
         <meshStandardMaterial
           color='#fff8eb'
@@ -39,72 +36,16 @@ const Ball = ({ imgUrl, position, scale = 2.75, isMobile }) => {
   );
 };
 
-const BallCanvas = ({ technologies }) => {
-  const [isMobile, setIsMobile] = React.useState(false);
-
-  React.useEffect(() => {
-    // Add a listener for changes to the screen size
-    const mediaQuery = window.matchMedia("(max-width: 500px)");
-
-    // Set the initial value of the `isMobile` state variable
-    setIsMobile(mediaQuery.matches);
-
-    // Define a callback function to handle changes to the media query
-    const handleMediaQueryChange = (event) => {
-      setIsMobile(event.matches);
-    };
-
-    // Add the callback function as a listener for changes to the media query
-    mediaQuery.addEventListener("change", handleMediaQueryChange);
-
-    // Remove the listener when the component is unmounted
-    return () => {
-      mediaQuery.removeEventListener("change", handleMediaQueryChange);
-    };
-  }, []);
-
+const BallCanvas = ({ icon }) => {
   return (
     <Canvas
       frameloop='demand'
       dpr={[1, 2]}
-      camera={{ position: [0, 0, isMobile ? 70 : 30], fov: isMobile ? 45 : 45 }}
-      gl={{ preserveDrawingBuffer: true, antialias: !isMobile }}
+      gl={{ preserveDrawingBuffer: true, powerPreference: "high-performance" }}
     >
       <Suspense fallback={<CanvasLoader />}>
-        <OrbitControls
-          enableZoom={false}
-          enablePan={true}
-          maxPolarAngle={Math.PI / 2}
-          minPolarAngle={Math.PI / 2}
-        />
-        <ambientLight intensity={0.25} />
-        <directionalLight position={[0, 0, 0.05]} />
-        {technologies.map((tech, i) => {
-          // Responsive honeycomb layout
-          const columns = isMobile ? 4 : 5;
-          const row = Math.floor(i / columns);
-          const col = i % columns;
-
-          // Optimized spacing for mobile to see all 20 skills
-          const xGap = isMobile ? 6 : 7;
-          const yGap = isMobile ? -8 : -6;
-          const xStart = isMobile ? -10.5 : -14;
-          const yStart = isMobile ? 20 : 9;
-
-          const xOffset = row % 2 === 0 ? 0 : (isMobile ? 3 : 3.5);
-          const x = (col * xGap) + xStart + xOffset;
-          const y = (row * yGap) + yStart;
-
-          return (
-            <Ball
-              key={tech.name}
-              imgUrl={tech.icon}
-              position={[x, y, 0]}
-              scale={isMobile ? 2.4 : 2.75}
-              isMobile={isMobile}
-            />
-          );
-        })}
+        <OrbitControls enableZoom={false} />
+        <Ball imgUrl={icon} />
       </Suspense>
     </Canvas>
   );
