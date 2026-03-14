@@ -39,6 +39,7 @@ import {
   nasa,
   sectip,
   swayam,
+  book,
 } from "../assets";
 
 export const navLinks = [
@@ -224,6 +225,36 @@ const projects = [
     image: site,
     source_code_link: "https://github.com/gauravsinghcodes/Site-Builder",
     link:"https://site-builder-frontend-nine.vercel.app",
+  },
+  {
+    name: "Bookified",
+    description:
+      "Developed Bookified, an AI voice-powered platform that turns PDFs into interactive conversational companions. Users can upload books, ask questions via voice, and receive AI-generated insights and summaries.",
+    tags: [
+      {
+        name: "Next",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "MongoDB",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwindcss",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "vapi",
+        color: "brown-text-gradient",
+      },
+      {
+        name: "clerk",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: book,
+    source_code_link: "https://github.com/gauravsinghcodes/bookified",
+    link:"https://www.linkedin.com/posts/gaurav-singh-b3b3b7324_ai-nextjs-webdevelopment-ugcPost-7438632160908980224-COCO?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFHt1J8BDON6vpFvBoqNajg5Ks26GZrrGto",
   },
   {
     name: "Feedback App",

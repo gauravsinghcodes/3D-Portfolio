@@ -37,6 +37,7 @@ import tesla from "./company/tesla.png";
 import civora from "./company/civora.png";
 
 import carrent from "./carrent.png";
+import book from "./book.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import site from "./site.png";
@@ -86,6 +87,7 @@ export {
   tesla,
   carrent,
   jobit,
+  book,
   tripguide,
   civora,
   site,
