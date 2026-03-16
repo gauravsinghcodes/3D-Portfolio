@@ -40,6 +40,7 @@ import {
   sectip,
   swayam,
   book,
+  chat,
 } from "../assets";
 
 export const navLinks = [
@@ -227,6 +228,32 @@ const projects = [
     link:"https://site-builder-frontend-nine.vercel.app",
   },
   {
+    name: "Real-Time Group Chat App",
+    description:
+      "A real-time group chat application built with React, Node.js, and Socket.IO, featuring instant messaging and typing indicators in a single chat room powered by WebSockets for seamless frontend-backend synchronization.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwind CSS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Node.js",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "Socket.IO",
+        color: "purple-text-gradient",
+      },
+    ],
+    image: chat,
+    source_code_link: "https://github.com/gauravsinghcodes/Group-Chatt",
+    link:"https://www.linkedin.com/posts/gaurav-singh-b3b3b7324_learning-webdev-react-ugcPost-7423411774235897856-sIka?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFHt1J8BDON6vpFvBoqNajg5Ks26GZrrGto",
+  },
+  {
     name: "Bookified",
     description:
       "Developed Bookified, an AI voice-powered platform that turns PDFs into interactive conversational companions. Users can upload books, ask questions via voice, and receive AI-generated insights and summaries.",
@@ -244,12 +271,16 @@ const projects = [
         color: "pink-text-gradient",
       },
       {
-        name: "vapi",
+        name: "Vapi AI",
         color: "brown-text-gradient",
       },
       {
         name: "clerk",
         color: "blue-text-gradient",
+      },
+      {
+        name: "Vervel Blob",
+        color: "white-text-gradient",
       },
     ],
     image: book,

@@ -41,6 +41,7 @@ import book from "./book.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import site from "./site.png";
+import chat from "./chat.png";
 import aichatbot from "./ai-chatbot.png";
 import feedbackImg from "./feedback.png";
 import fizzi from "./fizzi.png";
@@ -91,6 +92,7 @@ export {
   tripguide,
   civora,
   site,
+  chat,
   aichatbot,
   feedbackImg,
   fizzi,
