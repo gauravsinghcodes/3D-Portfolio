@@ -48,7 +48,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I’m a MERN Stack Developer with hands-on experience building scalable, secure, and user-friendly web applications. I specialize in JavaScript, React, Node.js, Express, Flask, and modern APIs. I have built and deployed real-world projects including an AI Site Builder, AI-powered chatbot, and a Feedback App. I enjoy solving real-world problems, learning new technologies, and building products that create real impact.
+        I’m a MERN & PERN Stack Developer with hands-on experience building scalable, secure, and user-friendly web applications. I specialize in JavaScript, React, Node.js, Express, Flask, and modern APIs. I have built and deployed real-world projects including an AI Site Builder, AI-powered chatbot, and a Feedback App. I enjoy solving real-world problems, learning new technologies, and building products that create real impact.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap justify-center sm:justify-start gap-5 sm:gap-10'>
