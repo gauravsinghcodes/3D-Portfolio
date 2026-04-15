@@ -35,6 +35,7 @@ import {
   feedbackImg,
   fizzi,
   weather,
+  projectmgt,
   spotifyimg,
   nasa,
   sectip,
@@ -219,7 +220,7 @@ const projects = [
         color: "pink-text-gradient",
       },
       {
-        name: "Express and Node.js",
+        name: "Node.js",
         color: "orange-text-gradient",
       },
     ],
@@ -252,6 +253,36 @@ const projects = [
     image: chat,
     source_code_link: "https://github.com/gauravsinghcodes/Group-Chatt",
     link:"https://group-chatt-eta.vercel.app",
+  },
+  {
+    name: "Project Management",
+    description:
+      "Built with React, Redux, Node.js/Express,  & PostgreSQL (via Prisma + Neon). It supports multi-workspace collaboration with role-based access, project & task tracking (with priorities, statuses, and due dates), and team management powered by Clerk for auth and Inngest for real-time background sync. Users get email notifications on task assignments and deployed on vercel.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwind CSS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Node.js",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "PostgreSQL",
+        color: "purple-text-gradient",
+      },
+      {
+        name: "Clerk",
+        color: "violet-text-gradient",
+      },
+    ],
+    image: projectmgt,
+    source_code_link: "https://github.com/gauravsinghcodes/Project-Management",
+    link:"https://project-management-ten-neon.vercel.app",
   },
   {
     name: "Bookified",

@@ -48,6 +48,7 @@ import fizzi from "./fizzi.png";
 import weather from "./weather.png";
 import spotifyimg from "./spotifyimg.png";
 import nasa from "./nasa.png";
+import projectmgt from "./project-mgt.png"
 import sectip from "./sectip.png";
 import swayam from "./swayam.png";
 
@@ -99,6 +100,7 @@ export {
   weather,
   spotifyimg,
   nasa,
+  projectmgt,
   sectip,
   swayam,
 };
