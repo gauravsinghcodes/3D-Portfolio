@@ -42,6 +42,7 @@ import {
   swayam,
   book,
   chat,
+  bitlinks,
 } from "../assets";
 
 export const navLinks = [
@@ -369,6 +370,28 @@ const projects = [
     image: fizzi,
     source_code_link: "https://github.com/gauravsinghcodes/Fizzi-Fizz",
     link:"https://fizzi-fizz.vercel.app",
+  },
+  {
+    name: "Bitlinks",
+    description:
+      "A responsive web application replicating Spotify's core features using HTML, CSS, and JavaScript.",
+    tags: [
+      {
+        name: "Next.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Tialwind CSS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "MongoDB",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: bitlinks,
+    source_code_link: "https://github.com/gauravsinghcodes/bitlinks",
+    link:"https://bitlinks-rho-sooty.vercel.app",
   },
   {
     name: "Spotify Clone",
