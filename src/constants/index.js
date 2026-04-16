@@ -374,7 +374,7 @@ const projects = [
   {
     name: "Bitlinks",
     description:
-      "A responsive web application replicating Spotify's core features using HTML, CSS, and JavaScript.",
+      "BitLinks is a high-performance URL management platform that enables teams to create custom-branded links, track analytics, and generate QR codes with ease. It offers a fast, secure, and privacy-focused experience with a streamlined workflow and no complex onboarding.",
     tags: [
       {
         name: "Next.js",
